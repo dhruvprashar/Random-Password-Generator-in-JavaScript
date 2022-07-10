@@ -12,6 +12,7 @@ html, body {
     display: grid;
     place-items: center;
     text-align: center;
+    background-color: gray;
 }
 
 .container .display {
@@ -31,7 +32,10 @@ html, body {
     pointer-events: none;
     border-radius: 8px;
 }
-
+.container .display input::selection{
+    color:white;
+    background-color: gray;
+}
 .container .display span {
     position: absolute;
     right: 10px;
